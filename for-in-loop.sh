@@ -10,6 +10,7 @@ function displayArray()
   ((length_minus_one=$# -1 ))
   ## bash arrays are enclosed in parenthesis instead of square brackets
   echo -n "(";
+## same as for el in arg-array
   for el
     do
     ## bash requires test expressions to be enclosed in double square brackets with a space on each side- will NOT work without the spaces
