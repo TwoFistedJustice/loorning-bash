@@ -5,10 +5,9 @@
 function displayArray()
 {
   i=0
-  ## buck-hash is the bash equivalent of arguments.length
-  iterations=$#
+  ## buck-hash is the bash equivalent of arguments.length in javascript
   ## to set one var equal to another modified var use double parenthesis around the whole expression
-  ((length_minus_one=iterations -1 ))
+  ((length_minus_one=$# -1 ))
   ## bash arrays are enclosed in parenthesis instead of square brackets
   echo -n "(";
   for el
