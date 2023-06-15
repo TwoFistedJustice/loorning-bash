@@ -28,5 +28,5 @@ function displayArray()
 }
 ## arrays in bash use parenthesis and blank-space delimiters
 prime=(2 3 5 7 11)
- ## not sure why the '@' symbol and brackets are required but it doesn't work without them...
+ ## 'arr[@]' passes the whole array in, without it only passes the first element
 displayArray "${prime[@]}"
