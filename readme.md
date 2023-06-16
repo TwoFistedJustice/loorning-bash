@@ -1,5 +1,9 @@
-# Learning BASh!
+# Loorning BASh!
 
-This is a set of simple bash scripts I created to help myself understand bash fundamentals.
+This is a set of simple bash scripts derived or copied from _Mastering Linux_ by Paul Wang
+
+
+
+
 
 
