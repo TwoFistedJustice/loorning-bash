@@ -3,6 +3,13 @@
 ## based on Mastering Linux by Paul Wang
 ## shows how to use function return values
 
+function say(){
+  echo $1
+}
+word=$(say "yes")
+echo $word
+
+
 prime=(2 3 5 7 11)
 
 function sum() {
@@ -42,4 +49,6 @@ function newer(){
 function newerer(){
   [[ $1 -nt $2 ]]  ## can also use -ot for 'older than'
 }
+
+
 
